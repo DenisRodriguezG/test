@@ -1,0 +1,26 @@
+$(function(){
+    var url =  url_base + 'captcha/';
+    $('#captcha-code img').load(function(){
+        $('#captcha_refresh i').removeClass('mdi-spin');
+        $('#captcha-content .captcha-not-load').addClass('hide');
+        $('#captcha-content img').removeClass('hide');
+
+        //console.log('IMG loaded');
+    }).error(function () {
+        $('#captcha_refresh i').removeClass('mdi-spin');
+        $('#captcha-content .captcha-not-load').removeClass('hide');
+        $('#captcha-content img').addClass('hide');
+        //console.log('IMG loaded error');
+    });
+
+    function getCaptchaCode() {
+        var d = new Date();
+        $('#captcha_refresh i').addClass('mdi-spin');
+        $('#captcha-code img').attr('src', url + '?' + d.getTime());
+    }
+
+    $('#captcha_refresh').click(function(){
+        getCaptchaCode();
+    });
+    getCaptchaCode();
+});

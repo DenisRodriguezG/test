@@ -1,0 +1,57 @@
+(function ($) {
+    $(function () {
+        $('.button-collapse').sideNav();
+        $('select').material_select();
+        var col = $('.collapsible').collapsible({accordion : true});
+        $('.modal-trigger').leanModal();
+
+        $("#btn_submit, button[name='btn_submit']").removeClass('disabled').attr('disabled', false);
+
+
+        //Validacion invalida del formulario
+        //var form = document.querySelector('form');
+        //form.addEventListener( 'invalid',function(event){
+        //    event.preventDefault();
+        //},true);
+    }); // end of document ready
+
+    //Cerrar el toast al dar clic
+    $(document).on('click', '#toast-container .toast', function() {
+        $(this).fadeOut(function(){
+            $(this).remove();
+        });
+    });
+    //
+    //var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], textarea';
+    //$(document).on('blur', input_selector, function (e) {
+    //    var object = $(this);
+    //    if (object.hasClass('validate')) {
+    //        console.log('validar');
+    //        //if ((object.is(':valid')) || (object.is(':valid') && !hasLength)) {
+    //            object.removeClass('valid');
+    //            object.addClass('invalid');
+    //        e.stopPropagation();
+    //        //}
+    //    }
+    //});
+
+    $(document).ajaxError(function(){
+        // $.unblockUI();
+        // if ($('#ajax-messages')){
+        //     toastr.error($('#ajax-messages').data('ajax-connection-error'));
+        // }
+    });
+
+})(jQuery); // end of jQuery name space
+
+function material_loading_line(){
+    return '<div class="progress blue lighten-4"><div class="indeterminate blue darken-4"></div></div>';
+}
+
+function material_loading_circle_button(){
+    return '<div class="loading-button preloader-wrapper tiny active"><div class="spinner-layer spinner-blue-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>';
+}
+
+function material_loading_circle(){
+    return '<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-blue-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>';
+}

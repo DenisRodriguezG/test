@@ -1,0 +1,34 @@
+@font-face{font-family:'OptimaLTStd-Medium';font-style:normal;font-weight:400;src:url("../font/etecsa/OptimaLTStd-Medium.eot");src:local('OptimaLTStd-Medium'),local('OptimaLTStd-Medium'),url("../font/etecsa/OptimaLTStd-Medium.woff") format('woff'),url("../font/etecsa/OptimaLTStd-Medium.ttf") format('truetype')}@font-face{font-family:'OptimaLTStd-Bold';font-style:normal;font-weight:400;src:url("../font/etecsa/OptimaLTStd-Bold.eot");src:local('OptimaLTStd-Bold'),local('OptimaLTStd-Bold'),url("../font/etecsa/OptimaLTStd-Bold.woff") format('woff'),url("../font/etecsa/OptimaLTStd-Bold.ttf") format('truetype')}@font-face{font-family:'Verdana';src:url("../font/verdana/Verdana.eot");src:local('Verdana'),local('Verdada'),url("../font/verdana/Verdana.woff") format('woff'),url("../font/verdana/Verdana.ttf") format('truetype')}.icon-block{padding:0 15px}.icon-block .material-icons{font-size:inherit}.paralelogramo{height:64px;width:20%;-webkit-transform:skew(-45deg);-moz-transform:skew(-45deg);-ms-transform:skew(-45deg);-o-transform:skew(-45deg);transform:skew(-45deg);background-color:#0e1b8d;margin-left:-50px}h3{color:#0e1b8d;font-size:2.00rem}.sub-title{font-size:1.4rem;color:#8c8c8c}.etecsa-logo{padding:8px;margin-left:40%;-webkit-transform:skew(45deg);-moz-transform:skew(45deg);-ms-transform:skew(45deg);-o-transform:skew(45deg);transform:skew(45deg)}.nauta-logo{padding:10px;padding-left:30px}*{font-family:Verdana,"Roboto",Arial,Helvetica,sans-serif}.title-blue{font-family:"OptimaLTStd-Medium","Verdana","Roboto",sans-serif;color:#0e1b8d;font-weight:bolder;font-style:italic;font-size:14px}.title-portal{margin-left:180px;font-size:22px;padding-left:5px;line-height:4}.login-form{width:280px}nav .button-collapse{padding-left:10px}#icon-nav{top:64px}#icon-nav ul li{text-align:center}#icon-nav ul li a i{font-size:1.4rem;height:0;line-height:45px}#icon-nav ul li a span{position:relative;top:12px}#icon-nav .dropdown-menu span i{line-height:65px}.dropdown-horizontal-list li a{font-size:1rem;font-weight:400;min-width:150px;padding:10px;text-align:left}.etecsa-blue-text,li.etecsa-blue-text a{color:#0e1b8d!important}.separator.etecsa-blue-text{border-color:#0e1b8d!important}.etecsa-logo-2{margin-top:15px;padding:5px;width:80%}.etecsa-grey{background-color:#ececec}#content{margin-top:65px}@media(max-width:992px){#content{margin-top:0}}.dropdown-content li>a{color:#0e1b8d;!important;font-size:15px}.input-field .prefix.active{color:#0e1b8d!important}i .active{color:#0e1b8d!important}input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]),input[type=email]:focus:not([readonly]),input[type=url]:focus:not([readonly]),input[type=time]:focus:not([readonly]),input[type=date]:focus:not([readonly]),input[type=datetime-local]:focus:not([readonly]),input[type=tel]:focus:not([readonly]),input[type=number]:focus:not([readonly]),input[type=search]:focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]){border-bottom:1px solid #0e1b8d;box-shadow:0 1px 0 0 #0e1b8d}input[type=text]:focus:not([readonly])+label,input[type=password]:focus:not([readonly])+label,input[type=email]:focus:not([readonly])+label,input[type=url]:focus:not([readonly])+label,input[type=time]:focus:not([readonly])+label,input[type=date]:focus:not([readonly])+label,input[type=datetime-local]:focus:not([readonly])+label,input[type=tel]:focus:not([readonly])+label,input[type=number]:focus:not([readonly])+label,input[type=search]:focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label{color:#0e1b8d}[type="checkbox"]:checked+label:before{border-right-color:#5a5a5a;border-bottom-color:#5a5a5a}.dropdown-content li>a,.dropdown-content li>span{font-size:1rem;color:#0e1b8d}.pagination li{font-size:.9rem;padding:0 5px;border:1px solid #efefef}.pagination li.icon{padding:0}html{font-size:12px}.card .card-title{color:#FFF;font-size:24px;font-weight:300}.card-header{padding:20px}#summary{padding-left:2rem;padding-right:2rem}.card-date{font-size:1rem;margin:0}.preloader-wrapper{width:25px;height:25px}.loading-button{position:fixed;margin:6px 40%;left:0}.separator{border-bottom:1px solid #8b8b8b;margin:0 15px}#toast-container ul li{word-break:normal}#toast-container .toast{cursor:pointer}.input-field .added{padding-top:15px}.sub-message{list-style:circle;margin-left:15px}.input-field label.active{font-size:1rem}.modal.modal-fixed-footer .modal-content{height:100%}.modal,.modal.modal-fixed-footer{height:280px}.card-content .card-stats-title{font-size:1.2rem}.side-nav .collapsible-body li.active,.side-nav.fixed .collapsible-body li.active{background-color:#e7e7e7}nav ul li.active,.side-nav li.active{background-color:#ddd}nav ul li:hover,.side-nav li:hover{background-color:#ececec}@media only screen and (min-width:0){html{font-size:11px}}@media only screen and (min-width:992px){html{font-size:11.5px}#toast-container{top:25%}}@media only screen and (max-width:992px) and (min-width:601px){#toast-container{left:40%;bottom:unset;top:70px}}@media only screen and (min-width:1200px){html{font-size:12px}}@media(max-width:600px){table thead{width:33%}table thead tr th{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}@media(max-width:992px){ul#nav-mobile>li:last-child{margin-bottom:100px}}@media(max-width :600px){#toast-container{left:0}}
+
+nav#icon-nav ul a {
+    min-width: 150px;
+}
+
+#captcha-content .btn-floating{
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    margin: 3px;
+}
+
+#captcha-content .btn-floating i{
+    line-height: 27px;
+}
+
+#captcha-code{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #78797a;
+    /* border-left: 1px solid; */
+    /* border-right: 1px solid; */
+    /* border-bottom: 1px solid; */
+    /* border-color: #383838; */
+}
+
+#modal_captcha_help .modal-content p:last-child{
+    margin-bottom: 100px;
+}
+
+.dropdown-content{
+    max-height: 300px;
+}
